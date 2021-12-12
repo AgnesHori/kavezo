@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/kave.css" />
+    <title>Lucky kávézó</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Luky
+                <img src="img/clover.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-link active" href="index.html">Főoldal</a>
+                    <a class="nav-link" href="kave.html">Kávéfajták</a>
+                    <a class="nav-link" href="suti.html">Sütemények</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">Bejelentkezés</a>
+                    <a class="nav-link" href="#">Regisztráció</a>
+                </div>
+            </div>
+        </nav>
+        <div class="banner"></div>
+        <div class="container">
+            <h1 class="text-center p-3">Lucky - Sütemények</h1>
+            <div class="row">
+                <div class="col-md-4 col-12 text-center mb-3">
+                    <div class="card">
+                        <img src="img/almasretes.png" class="card-img-top" alt="almasretes" />
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#idalmasretes">Almás
+                                    rétes</a></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 text-center mb-3">
+                    <div class="card">
+                        <img src="img/brownie.png" class="card-img-top" alt="brownie" />
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#idbrownie">Brownie</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 text-center mb-3">
+                    <div class="card">
+                        <img src="img/epressajttorta.png" class="card-img-top" alt="epressajttorta" />
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#idepressajttorta">Epres
+                                    sajttorta</a></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 text-center mb-3">
+                    <div class="card">
+                        <img src="img/amerikaipalacsinta.png" class="card-img-top" alt="amerikaipalacsinta" />
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" data-toggle="modal"
+                                    data-target="#idamerikaipalacsinta">Amerikai palacsinta</a></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 text-center mb-3">
+                    <div class="card">
+                        <img src="img/tiramisu.png" class="card-img-top" alt="tiramisu" />
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" data-toggle="modal"
+                                    data-target="#idtiramisu">Tiramisu</a></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 text-center mb-3">
+                    <div class="card">
+                        <img src="img/narancsosmuffin.png" class="card-img-top" alt="narancsosmuffin" />
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" data-toggle="modal"
+                                    data-target="#idnarancsosmuffin">Narancsos muffin</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="idalmasretes" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="img/almasretes.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Almás rétes</h2>
+                                        <p>A legrégebbi ismert rétesrecept 1697-ből való, egy kézzel írott recept a
+                                            Wienbibliothek im Rathausban található. Akár egyfajta édes vagy sós rakott
+                                            péksütemény, belül töltelékkel, a rétes a
+                                            18. században vált népszerűvé a Habsburg Birodalom révén. Az
+                                            osztrák konyha az Osztrák Habsburg Birodalom terjeszkedésének sok évszázada
+                                            során számos különböző nép konyhája által formálódott és hatott rájuk.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="idbrownie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="img/brownie.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Brownie</h2>
+                                        <p>A brownie /'braʊni/, vagy más szóval chocolate brownie /'ʧɒklət 'braʊni/ vagy
+                                            Boston brownie egy csokoládés, szeletelt sütemény. Nevét barna színéről
+                                            kapta, tetejét néha cukormázzal vonják be. Az első írott forrás, ahol a
+                                            brownie süteményt említik, 1897-ből származik a Sears and Roebuck
+                                            katalógusból.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="idepressajttorta" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="img/epressajttorta.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Epres sajttorta</h2>
+                                        <p>Az elegáns desszert a görög konyha büszkesége, a világ legfinomabb
+                                            sajttortáját mégis New York-ban találod. Az amerikai sajttorta, azon belül
+                                            is a New York-i különlegessége abban rejlik, hogy nem hűtőben pihentetve
+                                            készül, hanem a sütőben áll össze. A sajttortát eheted magában is, de sokkal
+                                            finomabb lesz eperrel.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="idamerikaipalacsinta" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="img/amerikaipalacsinta.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Amerikai palacsinta</h2>
+                                        <p>Minden népnek megvan a maga palacsintája, ez alól az amerikaiak sem
+                                            kivételek. A magyar palacsinta (és általában az európai) tányérnyi méretű,
+                                            vékony és töltve-feltekerve esszük. Az amerikai palacsinta sokkal kisebb és
+                                            vastagabb, általában vajjal és valamilyen édes öntettel kínáljuk. A
+                                            vastagságát a hozzáadott sütőpornak köszönheti, amitől egyben lágy és
+                                            kellemesen puha is lesz, ha jól van elkészítve.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="idtiramisu" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="img/tiramisu.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Tiramisu</h2>
+                                        <p>A tiramisu (olaszul: tiramisù, tirame'su) olasz desszert, amely az eredeti
+                                            recept szerint az alábbiakból készül: babapiskóta, tojássárgája, feketekávé,
+                                            mascarpone sajt, cukor, és kakaópor. A tirami sù olasz kifejezés átvitt
+                                            értelmű jelentése „dobj fel”, ami a két koffeintartalmú összetevőre utal: a
+                                            presszókávéra és a kakaóra. Az eredeti receptben nincs tojásfehérje vagy
+                                            alkohol. A Veneto tartománybeli Trevisóban 1969 decemberében a Le Beccehrie
+                                            étterem tulajdonosa, Ado Campeol feleségével és az étterem séfjével alkotta
+                                            meg az első tiramisut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="idnarancsosmuffin" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="img/narancsosmuffin.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Narancsos muffin</h2>
+                                        <p>A muffin (kiejtése: /'mʌfɪn/) egy süteményfajta, melynek két fő változata az
+                                            angol és az amerikai muffin. Legtöbbször kifejezetten erre a célra gyártott
+                                            és vajjal vagy növényi zsiradékkal kikent muffinsütőben sütik meg. Az
+                                            egyszerű fűszerek mellett a nyers tészta gazdagítható például asztalt
+                                            gyümölcsökkel, olajos magvakkal, gabonapelyhekkel és csokoládéval, illetve
+                                            sós változat esetén sajttal, sonkával és zöldségekkel. Készre sütve
+                                            lekvárral vagy különféle krémekkel tölthető, és cukormázzal vagy
+                                            tejszínhabbal díszített változata is ismert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="container-fluid text-white">
+        <div class="row">
+            <div class="col-md-4 col-12 offset-md-1">
+                <h2>Kapcsolat</h2>
+                <ul>
+                    <li><img src="img/letter.svg" alt="" /> Luky Kávézó</li>
+                    <li><img src="img/email.svg" alt="" /> lucky@gmail.com</li>
+                    <li><img src="img/phone.svg" alt="" /> +30-33-158-5588</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-12">
+                <h2>Kávé Magazin</h2>
+                <p>Iratkozz fel a magazinunkra!</p>
+                <form class="form-inline">
+                    <input type="text" class="form-control" placeholder="email" />
+                    <button class="btn btn-success">Feliratkozom</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
